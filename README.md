@@ -42,7 +42,7 @@ python main.py list-users
 
 c.To create a new project:
 ```bash
-python main.py add-project --title "Python" --description "Developing command line interface" --due-date "2026-20-07"
+python main.py add-project --title "Python" --description "Developping command line interface" --due-date "2026-20-07"
 ```
 
 d.To append a task to the project:

@@ -7,8 +7,8 @@
     ],
     "projects": [
         {
-            "title": "Alpha",
-            "description": "Build standard backend architecture",
+            "title": "Python",
+            "description": "Developping a command line interface",
             "due_date": "2026-12-01",
             "tasks": [
                 {

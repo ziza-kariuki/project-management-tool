@@ -6,7 +6,7 @@ from models.project import Project
 DATA_FILE = "data.json"
 
 def save_data(users: list, projects: list):
-   #Serializes and saves system state to a local JSON file."
+   #Saves system state to a local JSON file."
     dir_name = os.path.dirname(DATA_FILE)
     if dir_name:
         os.makedirs(dir_name, exist_ok=True)
@@ -21,7 +21,7 @@ def save_data(users: list, projects: list):
 
 
 def load_data():
-    """Loads system data safely using try-except to handle errors."""
+   #Loads system data
     users = []
     projects = []
     
@@ -41,6 +41,6 @@ def load_data():
                 projects.append(Project.from_dict(p_data))
                 
     except (json.JSONDecodeError, KeyError, TypeError):
-        print("[Warning] Storage file was corrupted or malformed. Starting fresh.")
+        print("[Warning] Storage file was corrupted. Starting fresh.")
         
     return users, projects
