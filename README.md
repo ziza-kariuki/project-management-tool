@@ -13,7 +13,7 @@ A Python-based Command-Line Interface (CLI) application that manages a simulated
 
 
 ## How to Run the project
-# 1. Initialize Virtual Environment & Dependencies
+### 1. Initialize Virtual Environment & Dependencies
 a. Create the environment folder
 ```bash
 python3 -m venv venv
@@ -29,7 +29,7 @@ c. Install the styling framework
 pip install tabulate
 ```
 
-# 2. Running CLI commands(examples)
+### 2. Running CLI commands(examples)
 a.To Register a User Profile:
 ```bash
 python main.py add-user --name "Ziza Kariuki" --email "ziza@email.com"
@@ -60,7 +60,7 @@ f. View Dashboard:
 python main.py list-projects
 ```
 
-# 3.Running automated tests
+### 3.Running automated tests
 a. To execute the test suite,run:
 ```bash
 python -m unittest discover -s tests -p "*.py"
