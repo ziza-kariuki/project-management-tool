@@ -1,9 +1,22 @@
 {
     "users": [
         {
-            "name": "Alice Smith",
-            "email": "alice@email.com"
+            "name": "Ziza Kariuki",
+            "email": "ziza@email.com"
         }
     ],
-    "projects": []
+    "projects": [
+        {
+            "title": "Alpha",
+            "description": "Build standard backend architecture",
+            "due_date": "2026-12-01",
+            "tasks": [
+                {
+                    "title": "Write Unit Tests",
+                    "assigned_to": "ziza@email.com",
+                    "status": "Pending"
+                }
+            ]
+        }
+    ]
 }
